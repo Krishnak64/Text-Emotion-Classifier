@@ -1,0 +1,126 @@
+{
+  "best_model": "Logistic Regression (TF-IDF)",
+  "accuracies": {
+    "Naive Bayes (BoW)": 0.768125,
+    "Naive Bayes (TF-IDF)": 0.6609375,
+    "Logistic Regression (TF-IDF)": 0.8628125
+  },
+  "labels": [
+    "anger",
+    "fear",
+    "joy",
+    "love",
+    "sadness",
+    "surprise"
+  ],
+  "confusion_matrix": [
+    [
+      347,
+      12,
+      37,
+      1,
+      30,
+      0
+    ],
+    [
+      17,
+      302,
+      46,
+      1,
+      24,
+      7
+    ],
+    [
+      2,
+      3,
+      984,
+      17,
+      15,
+      0
+    ],
+    [
+      5,
+      4,
+      93,
+      182,
+      12,
+      0
+    ],
+    [
+      13,
+      7,
+      32,
+      1,
+      893,
+      0
+    ],
+    [
+      0,
+      24,
+      20,
+      1,
+      15,
+      53
+    ]
+  ],
+  "report": {
+    "anger": {
+      "precision": 0.9036458333333334,
+      "recall": 0.8126463700234192,
+      "f1-score": 0.8557336621454994,
+      "support": 427.0
+    },
+    "fear": {
+      "precision": 0.8579545454545454,
+      "recall": 0.760705289672544,
+      "f1-score": 0.8064085447263017,
+      "support": 397.0
+    },
+    "joy": {
+      "precision": 0.8118811881188119,
+      "recall": 0.9637610186092067,
+      "f1-score": 0.8813255709807434,
+      "support": 1021.0
+    },
+    "love": {
+      "precision": 0.896551724137931,
+      "recall": 0.6148648648648649,
+      "f1-score": 0.7294589178356713,
+      "support": 296.0
+    },
+    "sadness": {
+      "precision": 0.9029322548028311,
+      "recall": 0.9439746300211417,
+      "f1-score": 0.9229974160206719,
+      "support": 946.0
+    },
+    "surprise": {
+      "precision": 0.8833333333333333,
+      "recall": 0.4690265486725664,
+      "f1-score": 0.6127167630057804,
+      "support": 113.0
+    },
+    "accuracy": 0.8628125,
+    "macro avg": {
+      "precision": 0.8760498131967976,
+      "recall": 0.7608297869772905,
+      "f1-score": 0.801440145785778,
+      "support": 3200.0
+    },
+    "weighted avg": {
+      "precision": 0.8671141589072086,
+      "recall": 0.8628125,
+      "f1-score": 0.8574025823182427,
+      "support": 3200.0
+    }
+  },
+  "class_counts": {
+    "joy": 5362,
+    "sadness": 4666,
+    "anger": 2159,
+    "fear": 1937,
+    "love": 1304,
+    "surprise": 572
+  },
+  "n_samples": 16000
+}
